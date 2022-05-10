@@ -1,0 +1,57 @@
+Create Environment
+___________________
+
+conda create -n<environment name>
+
+
+
+Active Environment
+__________________
+
+conda activate <environment name>
+
+
+
+Django installed in respective environment
+___________________________________________
+
+conda install -c anaconda django
+
+
+
+
+Create Django Project
+________________________
+
+django-admin startproject<name>
+
+
+
+
+Navigate to project
+__________________
+
+cd <dir>
+
+
+
+
+open vs code
+___________
+
+code .
+
+
+Extras:
+==================================
+
+Delete environment in conda
+___________________________
+
+conda env remove -n<env name>
+
+
+Environment list check
+_____________________
+
+conda env list
