@@ -1,0 +1,85 @@
+_________________GIT BASIC COMMANDS_____________
+
+git clone
+-----------------------------------
+git clone <repo link>
+
+
+
+
+
+
+git view changes
+----------------------------------
+git status
+
+(all red marked files shows that what are the changes in our project)
+
+
+
+
+
+
+
+changes added to git
+------------------------------------
+
+add one file at a time
+______________________
+git add <file name>
+
+EX: git add index.html
+
+add all files at a time
+_______________________
+EX: git add .
+
+
+
+
+
+
+after you add files into git,
+you can command git status again
+then you can see all changes added to git(those red colors folders turn into green color)
+
+
+
+
+
+
+
+
+
+After that you can commit changes into github
+
+git commit command
+------------------------------
+git commit -m "comments"
+
+
+
+
+
+
+
+
+
+
+
+
+_________________GIT BRANCHES___________
+
+git create branch
+--------------------------------
+git branch -c <branch name>
+
+
+git view all branches
+--------------------------------
+git branch
+
+
+git change working branch
+--------------------------------
+git checkout <branch name>
