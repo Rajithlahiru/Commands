@@ -6,6 +6,9 @@ mkdir <name>
 cd <name>
 ```
 ```
+git init
+```
+```
 touch README.md
 ```
 ```
