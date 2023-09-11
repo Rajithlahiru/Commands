@@ -45,7 +45,7 @@ conda env list
 
 ## create virtual environment in python
 ```
-conda create -n<environment name>
+python3 -m venv <env name>
 ```
 
 ## activate it
